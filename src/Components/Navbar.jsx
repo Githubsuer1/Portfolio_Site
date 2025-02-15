@@ -11,7 +11,7 @@ const Navbar = () => {
   }
   return (
     <nav className={` bg-gray-900 text-white w-full h-14 fixed top-0 flex 
-       justify-between items-center sm:p-2 p-2.5 z-50`}
+       justify-between  sm:p-2 p-2.5 z-50`}
     >
           <div className={` ${open?"":"font-bold text-lg"}`}>Siddhant Mishra</div>
           {/* visible only in small devices */}
