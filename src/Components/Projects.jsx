@@ -30,6 +30,25 @@ import FlipCard from './Flipcard';
         </div>
 
         <div 
+          className="w-full max-w-sm h-84 shadow-2xl p-2.5 transition-all 
+          duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
+          hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1">
+
+          <strong>MyOwnGPT</strong>
+          <h1 className='font-bold'> Tech Stack:</h1>
+          <p>Frontend: React.js, Tailwind CSS</p>
+          <p>Backend: Node.js, Express.js</p>
+          <p>API: Groq API</p>
+          <h1 className='font-bold'> Key Features:</h1>
+          <p>Making query like chatgpt </p>
+          <p>Fully responsive UI for all devices</p>
+          <p>RESTful API integration for smooth functionality</p>
+          <p>Express for a scalable backend</p>
+
+          <strong> Live Demo: <NavLink to='https://my-own-gpt-frontend.vercel.app/'>Live Demo</NavLink></strong>
+        </div>
+
+        <div 
           className="w-full max-w-sm h-82 shadow-2xl p-2.5 transition-all 
           duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
           hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1">
@@ -122,24 +141,7 @@ import FlipCard from './Flipcard';
           <strong> Live Demo: <NavLink to='#'>Live Demo</NavLink></strong>
         </div>
 
-        <div 
-          className="w-full max-w-sm h-84 shadow-2xl p-2.5 transition-all 
-          duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
-          hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1">
-
-          <strong>MyOwnGPT</strong>
-          <h1 className='font-bold'> Tech Stack:</h1>
-          <p>Frontend: React.js, Tailwind CSS</p>
-          <p>Backend: Node.js, Express.js</p>
-          <p>API: Groq API</p>
-          <h1 className='font-bold'> Key Features:</h1>
-          <p>Making query like chatgpt </p>
-          <p>Fully responsive UI for all devices</p>
-          <p>RESTful API integration for smooth functionality</p>
-          <p>Express for a scalable backend</p>
-
-          <strong> Live Demo: <NavLink to='https://my-own-gpt-frontend.vercel.app/'>Live Demo</NavLink></strong>
-        </div>
+        
         </div>
         
       </section>
