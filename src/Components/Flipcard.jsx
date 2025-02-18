@@ -1,5 +1,5 @@
 import React from "react";
-import "./FlipCard.css"; // Make sure to create this CSS file
+import "./Flipcard.css"; // Make sure to create this CSS file
 
 const FlipCard = ({domen,technology}) => {
   return (
