@@ -4,11 +4,12 @@ const About = () => {
     return (
       <section id="about" className=" min-h-screen h-full bg-gray-300 w-full flex sm:flex-row flex-col items-center justify-center">
         <div className='w-full max-w-xl p-4 rounded'>
+        <h2 className="sm:hidden text-4xl font-bold text-gray-800 p-4  text-center">About Me</h2>
           <img className='w-full max-w-xl rounded' src={myImage} alt="" />
         </div>
 
         <div className="w-full max-w-xl p-4 rounded">
-        <h2 className="text-4xl font-bold text-gray-800 p-4  text-center">About Me</h2>
+        <h2 className="hidden sm:block text-4xl font-bold text-gray-800 p-4  text-center">About Me</h2>
 
           <p className="text-md text-justify text-gray-900 leading-relaxed">
             Hi, I'm <strong>Siddhant Mishra</strong>, a passionate and detail-oriented 
@@ -31,6 +32,8 @@ const About = () => {
             Feel free to <strong>connect with me</strong> and explore my work. 😊
           </p>
         </div>
+
+        
       </section>
     );
   };
