@@ -1,16 +1,8 @@
 import {NavLink} from 'react-router-dom'
 import React from 'react';
+import FlipCard from './Flipcard';
+
   const Projects = () => {
-
-    const [hidden,setHidden] = React.useState(true);
-
-    function handleMouseOver() {
-      setHidden(false)
-    }
-  
-    function handleMouseOut() {
-      setHidden(true)
-    }
 
     return (
       <section className="min-h-screen h-full bg-gray-300 flex justify-center gap-2 p-4">
@@ -18,10 +10,10 @@ import React from 'react';
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-sm sm:text-md'>
         <div 
           className="w-full max-w-sm h-82 shadow-2xl p-2.5 transition-all 
-          duration-800 ease-in-out transform hover:scale-105 hover:bg-pink-400 
-          hover:text-gray-900 cursor-pointer rounded flex flex-col gap-1">
+          duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
+          hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1">
 
-          <strong className='text-gray-900'>To-do List Using MERN Stack</strong>
+          <strong>To-do List Using MERN Stack</strong>
           <h1 className='font-bold'>Tech Stack:</h1>
           <p> Frontend: React.js, Redux Toolkit</p>
           <p> Backend: Node.js, Express.js</p>
@@ -34,15 +26,15 @@ import React from 'react';
           <p>Redux Toolkit for efficient state management</p>
           <p>Express & MongoDB for a scalable backend</p>
 
-          <strong>Live Demo: <NavLink to='https://todo-mern-kappa-dusky.vercel.app/'>Live Demo</NavLink></strong>
+          <strong>Live Demo: <NavLink to='https://todo-mern-kappa-dusky.vercel.app/'>Click Here</NavLink></strong>
         </div>
 
         <div 
           className="w-full max-w-sm h-82 shadow-2xl p-2.5 transition-all 
-          duration-800 ease-in-out transform hover:scale-105 hover:bg-pink-400 
-          hover:text-gray-900 cursor-pointer rounded flex flex-col gap-1">
+          duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
+          hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1">
 
-          <strong className='text-gray-900'>Weather App Using public API</strong>
+          <strong>Weather App Using public API</strong>
           <h1 className='font-bold'>Tech Stack:</h1>
           <p>Frontend: React.js, Tailwind CSS, Javascript</p>
           <h1 className='font-bold'>Key Features:</h1>
@@ -56,10 +48,10 @@ import React from 'react';
 
         <div 
           className="w-full max-w-sm h-82 shadow-2xl p-2.5 transition-all 
-          duration-800 ease-in-out transform hover:scale-105 hover:bg-pink-400 
-          hover:text-gray-900 cursor-pointer rounded flex flex-col gap-1">
+          duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
+          hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1">
 
-          <strong className='text-gray-900'>Calculator</strong>
+          <strong>Calculator</strong>
           <h1 className='font-bold'>Tech Stack:</h1>
           <p>Frontend: React.js, Tailwind CSS</p>
           <h1 className='font-bold'>Key Features:</h1>
@@ -70,10 +62,10 @@ import React from 'react';
 
         <div 
           className="w-full max-w-sm h-84 shadow-2xl p-2.5 transition-all 
-          duration-800 ease-in-out transform hover:scale-105 hover:bg-pink-400 
-          hover:text-gray-900 cursor-pointer rounded flex flex-col gap-1">
+          duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
+          hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1">
 
-          <strong className='text-gray-900'>Random Password Generator</strong>
+          <strong>Random Password Generator</strong>
           <h1 className='font-bold'>Tech Stack:</h1>
           <p> Frontend: React.js, Tailwind CSS</p>
           <h1 className='font-bold'>Key Features:</h1>
@@ -85,11 +77,11 @@ import React from 'react';
 
 
         <div className="w-full max-w-sm h-84 shadow-2xl p-2.5 transition-all 
-          duration-800 ease-in-out transform hover:scale-105 hover:bg-pink-400 
-          hover:text-gray-900 cursor-pointer rounded flex flex-col gap-1"
+          duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
+          hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1"
         >
 
-          <strong className='text-gray-900'>Currency Convertor</strong>
+          <strong>Currency Convertor</strong>
           <h1 className='font-bold'>Tech Stack:</h1>
           <p>Frontend: React.js, Tailwind CSS</p>
           <h1 className='font-bold'>Key Features:</h1>
@@ -101,10 +93,10 @@ import React from 'react';
         </div>
 
         <div className="w-full max-w-sm h-84 shadow-2xl p-2.5 transition-all 
-          duration-800 ease-in-out transform hover:scale-105 hover:bg-pink-400 
-          hover:text-gray-900 cursor-pointer rounded flex flex-col gap-1">
+          duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
+          hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1">
 
-          <strong className='text-gray-900'>BMI Index Generator</strong>
+          <strong>BMI Index Generator</strong>
           <h1 className='font-bold'> Tech Stack:</h1>
           <p> Frontend: React.js, Tailwind CSS</p>
           <h1 className='font-bold'> Key Features:</h1>
@@ -117,10 +109,10 @@ import React from 'react';
 
         <div 
           className="w-full max-w-sm h-84 shadow-2xl p-2.5 transition-all 
-          duration-800 ease-in-out transform hover:scale-105 hover:bg-pink-400 
-          hover:text-gray-900 cursor-pointer rounded flex flex-col gap-1">
+          duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
+          hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1">
 
-          <strong className='text-gray-900'>Tic Tac Toe</strong>
+          <strong>Tic Tac Toe</strong>
           <h1 className='font-bold'>Tech Stack:</h1>
           <p>Frontend: HTML, CSS, Javascript</p>
           <h1 className='font-bold'> Key Features:</h1>
@@ -132,10 +124,10 @@ import React from 'react';
 
         <div 
           className="w-full max-w-sm h-84 shadow-2xl p-2.5 transition-all 
-          duration-800 ease-in-out transform hover:scale-105 hover:bg-pink-400 
-          hover:text-gray-900 cursor-pointer rounded flex flex-col gap-1">
+          duration-800 ease-in-out transform hover:scale-105 hover:bg-gray-900 
+          hover:text-gray-200 cursor-pointer rounded flex flex-col gap-1">
 
-          <strong className='text-gray-900'>MyOwnGPT</strong>
+          <strong>MyOwnGPT</strong>
           <h1 className='font-bold'> Tech Stack:</h1>
           <p>Frontend: React.js, Tailwind CSS</p>
           <p>Backend: Node.js, Express.js</p>

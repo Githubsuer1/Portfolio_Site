@@ -1,16 +1,15 @@
-const skills = ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Git", "GitHub","Expressjs"];
-
+import FlipCard from './Flipcard'
 const Skills = () => {
+  
   return (
-    <section id="skills" className="h-screen bg-gray-300 flex items-center justify-center">
-      <div className="text-center">
-        <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Skills</h2>
-        <div className="mt-4 flex flex-wrap justify-center">
-          {skills.map((skill) => (
-            <span key={skill} className="m-2 px-4 py-2 bg-blue-500 text-white rounded-lg">{skill}</span>
-          ))}
+    <section id="skills" className="min-h-screen h-full bg-gray-300 flex flex-col items-center p-4">
+        <h2 className="text-3xl text-center p-4 font-bold text-gray-800">Skills</h2>
+        <div className='w-full max-w-3xl grid sm:grid-cols-2 gap-4 place-items-center'>
+          <FlipCard domen="Front-end" technology="HTML CSS JAVASCRIPT"/>
+          <FlipCard domen="Back-end" technology="Nodejs Expressjs" />  
+          <FlipCard domen="Database" technology="MONGODB" />  
+          <FlipCard domen="Version-control" technology="GIT GITHUB" />  
         </div>
-      </div>
     </section>
   );
 };
